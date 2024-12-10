@@ -45106,18 +45106,38 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: 42px;
+  }
+
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 24px);
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .u-header .u-image-1 {
+    margin-top: -70px;
+  }
 }
 @media (max-width: 767px) {
+   .u-header {
+    min-height: 184px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: 60px;
+  }
+
   .u-header .u-image-1 {
-    margin-top: 20px;
+    margin-top: -70px;
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    min-height: 184px;
+  }
+
   .u-header .u-hamburger-link-1 {
     transform: scaleY(-1);
     transform-origin: center center 0px;
@@ -45157,12 +45177,17 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-footer .u-text-1 {
+    margin-top: 20px;
+  }
+
   .u-footer .u-image-2 {
     margin-right: calc(((100% - 720px) / 2)  + -82px);
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-image-2 {
+    margin-top: 20px;
     margin-right: calc(((100% - 540px) / 2)  + -82px);
   }
 }
